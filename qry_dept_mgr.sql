@@ -1,4 +1,5 @@
--- Department & Manager
+-- List the manager of each department with the following 
+-- information: department number, department name, the manager's employee number, last name, first name.
 
 select d.dept_no as "Department Number"
 	, d.dept_name as "Department"

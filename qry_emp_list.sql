@@ -1,4 +1,4 @@
--- Employee listing, including salary
+-- ist the following details of each employee: employee number, last name, first name, sex, and salary.
 
 select e.emp_no as "Employee Number"
 	, e.first_name as "First Name"
