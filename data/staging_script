@@ -1,0 +1,33 @@
+create table stg_employees(emp_no integer not null,
+	emp_title_id char(5),
+	birth_date date not null,
+	first_name varchar(25) not null,
+	last_name varchar(25) not null,
+	sex char(1),
+	hire_date date
+);
+
+create table stg_titles(
+		title_id char(5),
+		title varchar(25)
+	);
+	
+create table stg_salaries(
+	emp_no integer,
+	salary decimal(12,2)
+);
+
+create table stg_dept_manager (
+	dept_no char(4),
+	emp_no integer	
+);
+
+create table stg_departments(
+	dept_no char(4),
+	dept_name varchar(25)
+);
+
+create table stg_dept_emp(
+	emp_no integer,
+	dept_no char(5)
+);
